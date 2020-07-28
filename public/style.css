@@ -1,0 +1,14 @@
+*{background-color: white; font-family: 'Raleway', sans-serif; --primary-a:#104c63; --lightgrey:#a0a0a0; --darkgrey:#515253; --point:#e2c700; --black:#000000;}
+ul, ol, li {list-style: none; padding: 0;}
+a{cursor: pointer; text-decoration: none; color: #000000;}
+label, button, [type=button], [type=submit], [type=reset], a{cursor: pointer;}
+.clearfix:after {content: ""; display: block; clear: both;}
+
+:root{
+    --main: #e8c910;
+    --white: #ffffff;
+    --black: #000000;
+    --lightgrey: #b0b0b0;
+    --hover: #104c63;
+    --second: #F5D0C5;
+}

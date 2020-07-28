@@ -1,0 +1,8 @@
+header{height: 20vh;}
+ul{display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: 3em; text-align: center; align-items: center;}
+ul li:hover a{font-weight: 700; color: var(--hover);}
+img{width: 100%;}
+
+
+section{width: 90%; margin: auto;}
+img{padding-bottom: 10em; width: 80%; margin: auto; padding-left: 10%;}

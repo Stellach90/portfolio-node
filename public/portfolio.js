@@ -17,6 +17,12 @@ const works = [
         link : `greenp`
     },
     {
+        imgsrc : `../img/starbucks.png`,
+        title : `Starbucks`,
+        discription : `Application re-designed`,
+        link : `starbucks`
+    },
+    {
         imgsrc : `../img/minions.png`,
         title : `3D Minions work`,
         discription : `3D chessboard (MAYA)`,
@@ -32,8 +38,9 @@ const works = [
         imgsrc : `../img/fineart.png`,
         title : `Fine art`,
         discription : `Paintings, sculptures `,
-        link : `../html/wine.html`
+        link : `fineart`
     }
+    
 ]
 
 function getworkAsHtmlString(work) {

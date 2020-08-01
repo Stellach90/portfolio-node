@@ -1,19 +1,29 @@
-header{height:90vh; position: relative; display: flex; overflow: hidden;}
-header nav{background-color: #474849; z-index: 2; height: 10vh; overflow: hidden;}/*height: 15% */
-.nav-close{display: grid; grid-template-columns: 1fr 1.8fr 3fr; justify-content: space-around; align-items: center; height: 10vh; width: 100%; position: absolute;}
+header{height:60vh; position: relative; display: flex; overflow: hidden;}
+header nav{background-color: #474849; z-index: 2; height: 10vh; overflow: hidden;}
+
+
+.nav-close{display: grid; grid-template-columns: 1fr 3fr 2fr; justify-content: space-around; align-items: center; height: 10vh; width: 100%; position: absolute;}
 .nav-close .logo{text-indent: -9999px; background-image: url(../img/logo.jpg); background-position: center; background-size: contain; background-repeat: no-repeat; width: 50%; height: 50%; justify-self: center;}
 .nav-close ul{display: grid; grid-template-columns: 1fr 1fr 1fr; justify-self: center; width: 100%;}
 .nav-close ul li{justify-self: center; text-transform: uppercase;}
 .nav-links li a:hover{color: var(--hover); font-weight: bold;}
  
+
+.nav-open{position: absolute; width: 40%; height: 100%; top: 15%; opacity: 0; pointer-events: none;}
+.close{position: relative; width: 2em; height: 2em; text-indent: -9999px; background: url(../img/closeicon.png) no-repeat; background-size:cover; border: 0; top: 2em; right: -90%;}
+.info{display: flex; justify-content: space-around; align-items: center; width: 100%; position: relative; top: 5em;}
+
+
+
 .banner{height: fit-content;}
 .banner img{width: 100%; padding-top: 8%;}
 
-.cover{position: absolute; top: 15%; width: 100%;}
+.cover{position: absolute; top: 15%; width: 100%; right: 0;}
 
 /* main */
 main{width: 80%; margin: auto;}
 #works{display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 80px 40px; text-align: center;}
+
 .contents article a div+div{padding-top: 2em;}
 .pf-img{margin: auto;}
 .pf-img img{width: 80%;}
@@ -21,5 +31,6 @@ main{width: 80%; margin: auto;}
 .work p{word-break: break-word; margin: 15px;}
 .t:hover{color: var(--hover);}
 .shadow:hover{box-shadow: 5px 7px 15px #ccc;}
+
 
 .info{display: flex; justify-content: space-around; align-items: center; width: 100%; position: relative; top: 5em;}

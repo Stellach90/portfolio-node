@@ -17,24 +17,36 @@ app.get('/', function (req, res) {
 
 //creat about page route
 app.get('/wetfood', function (req, res) {
-    res.render('wetfood', {title : `../img/mainpage_cover4.png`});
+    res.render('wetfood', {title : ``});
 });
 
 app.get('/portfolio', function (req, res) {
-    res.render('portfolio', {title : 'Dry Food'});
+    res.render('portfolio', {title : ''});
 });
 
 app.get('/greenp', function (req, res) {
-    res.render('greenp', {title : 'catnip'});
+    res.render('greenp', {title : ''});
 });
 
 app.get('/minions', function (req, res) {
-    res.render('minions', {title : 'catnip'});
+    res.render('minions', {title : ''});
 });
 
 app.get('/wine', function (req, res) {
-    res.render('wine', {title : 'catnip'});
+    res.render('wine', {title : ''});
 });
+
+app.get('/fineart', function (req, res) {
+    res.render('fineart', {title : ''});
+});
+
+app.get('/starbucks', function (req, res) {
+    res.render('starbucks', {title : ''});
+});
+
+
+
+
 
 
 // Set static folder

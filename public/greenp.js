@@ -1,5 +1,5 @@
 document.getElementById("topImg").src = "../img/greenp-top.jpg";
-document.getElementById("topcss").href = "index.css";
+document.getElementById("topcss").href = "portfolio.css";
 
 const works = [];
 for (let i = 1; i < 17; i++){

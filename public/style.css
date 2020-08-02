@@ -1,4 +1,5 @@
-*{background-color: white; font-family: 'Raleway', sans-serif; --primary-a:#104c63; --lightgrey:#a0a0a0; --darkgrey:#515253; --point:#e2c700; --black:#000000;}
+*{background-color: white; font-family: 'Raleway', sans-serif; --primary-a:#104c63; --lightgrey:#a0a0a0; --darkgrey:#515253; --point:#e2c700; --black:#000000; max-width: 1366px;}
+html{margin: 0 auto;}
 ul, ol, li {list-style: none; padding: 0;}
 a{cursor: pointer; text-decoration: none; color: #000000;}
 label, button, [type=button], [type=submit], [type=reset], a{cursor: pointer;}

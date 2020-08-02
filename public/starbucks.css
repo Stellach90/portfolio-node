@@ -2,3 +2,4 @@ section{width: 80%; margin: auto;}
 .images{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; column-gap: 1em; row-gap: 2em; padding-top: 5em;}
 .images img{width: 100%; justify-self: center;}
 button{border: 1px solid #296144; border-radius: 20px; padding: 0.5em 2em; margin-left: 80%;}
+

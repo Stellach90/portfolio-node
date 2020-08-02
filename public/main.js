@@ -11,7 +11,7 @@ tl.to('.cover', 1,{
     width: '60%', top: '0', objectPosition:'left', ease: Power2.easeOut
 })
 .to('nav', 1,{
-    height: '100%', ease: Power2.easeOut
+    height: '100%', ease: Power2.easeOut, backgroundColor: '#515253'
 }, '-=0.5')
 .fromTo('.nav-open', 0.7, {
     opacity:0, x: 50, ease: Power2.easeOut

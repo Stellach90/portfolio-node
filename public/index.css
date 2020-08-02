@@ -1,14 +1,9 @@
 
-/* header{height:90vh; position: relative; display: flex; overflow: hidden;} */
 header{height:80vh; position: relative; display: flex; overflow: hidden; }
-header nav{background-color: #474849; z-index: 2; width: 40%; height: 10vh; overflow: hidden;}/*height: 15% */
-/* .nav-close{display: grid; grid-template-columns: 1fr 1.8fr 3fr; justify-content: space-around; align-items: center; height: 15%; width: 100%; position: absolute;} */
+header nav{background-color: var(--white); z-index: 2; width: 40%; height: 10vh; overflow: hidden;}/*height: 15% */
 
 .nav-close{display: grid; grid-template-columns: 1fr 3fr 2fr; justify-content: space-around; align-items: center; height: 10vh; width: 100%; position: absolute; left: 0;}
-
-
-
-.nav-close .logo{text-indent: -9999px; background-image: url(../img/logo.jpg); background-position: center; background-size: contain; background-repeat: no-repeat; width: 50%; height: 50%; justify-self: center;}
+.nav-close .logo{text-indent: -99999px; background-image: url(../img/logo.jpg); background-position: center; background-size: contain; background-repeat: no-repeat; width: 50%; height: 50%; justify-self: center;}
 .nav-close ul{display: grid; grid-template-columns: 1fr 1fr 1fr; justify-self: center; width: 100%;}
 .nav-close ul li{justify-self: center; text-transform: uppercase;}
 .nav-links li:hover, li a:hover{color: var(--hover); font-weight: bold;}
@@ -25,3 +20,8 @@ header nav{background-color: #474849; z-index: 2; width: 40%; height: 10vh; over
 
 header .cover{width: 75%; height: 100%; position: absolute; top: 15%; right: 0; object-fit: cover;}
 
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+    header{height: 50vh;}
+    .close{width: 1em; height: 1em;}
+  }

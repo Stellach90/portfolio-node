@@ -13,3 +13,8 @@ label, button, [type=button], [type=submit], [type=reset], a{cursor: pointer;}
     --hover: #104c63;
     --second: #F5D0C5;
 }
+
+
+@media all and (max-width: 1024px) and (min-width: 768px){
+    h3{font-size: 1em;}
+}

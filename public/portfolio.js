@@ -24,13 +24,13 @@ const works = [
     },
     {
         imgsrc : `../img/minions.png`,
-        title : `3D Minions work`,
+        title : `3D Minions`,
         discription : `3D chessboard (MAYA)`,
         link : `minions`
     },
     {
         imgsrc : `../img/wine.png`,
-        title : `3D cheese plate work`,
+        title : `3D cheese plate`,
         discription : `3D cheese plate and wine (MAYA)`,
         link : `wine`
     },
@@ -46,11 +46,14 @@ const works = [
 function getworkAsHtmlString(work) {
 
     return `<article class="work">
-        <div class="pf-img"><a href="${work.link}">
-        <img src="${work.imgsrc}" alt="Work Image" class="shadow"></a></div>
-        <h3><a class="t">${work.title}</a></h3>
-        <p>${work.discription}</p>
-        </article>`;
+    <a href="${work.link}">
+    <div>
+        <div class="pf-img" style="background-image: url(${work.imgsrc});">
+        <h3 class="text1">${work.title}</h3>
+        <p class="text2">${work.discription}</p></div></div>
+    
+    </a>
+    </article>`;
 };
 
 function renderWorks(arrToRender) {

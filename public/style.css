@@ -1,7 +1,8 @@
-*{background-color: white; font-family: 'Raleway', sans-serif; --primary-a:#104c63; --lightgrey:#a0a0a0; --darkgrey:#515253; --point:#e2c700; --black:#000000; max-width: 1366px;}
-html{margin: 0 auto;}
+*{background-color: transparent; color: var(--white); font-family: 'Raleway', sans-serif; --primary-a:#104c63; --lightgrey:#a0a0a0; --darkgrey:#515253; --point:#e2c700; --black:#000000; max-width: 1366px;}
+html{margin: 0 auto; background-color: var(--bg);}
 ul, ol, li {list-style: none; padding: 0;}
-a{cursor: pointer; text-decoration: none; color: #000000;}
+a{cursor: pointer; text-decoration: none; color: var(--white);}
+body{margin: 0.6em;}
 label, button, [type=button], [type=submit], [type=reset], a{cursor: pointer;}
 .clearfix:after {content: ""; display: block; clear: both;}
 
@@ -9,6 +10,7 @@ label, button, [type=button], [type=submit], [type=reset], a{cursor: pointer;}
     --main: #e8c910;
     --white: #ffffff;
     --black: #000000;
+    --bg:#272727;
     --lightgrey: #b0b0b0;
     --hover: #104c63;
     --second: #F5D0C5;

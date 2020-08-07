@@ -1,4 +1,4 @@
-header{height: 20vh;}
+header{height: 30vh;}
 ul{display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: 3em; text-align: center; align-items: center; }
 
 .real3d{border: 1px solid var(--hover); border-radius: 20px; padding: 0.5em 2em; width: 80%; margin: auto;}
@@ -14,4 +14,14 @@ img+h4{padding-top: 10em;}
 
 @media all and (max-width: 1024px) and (min-width: 768px){
     .real3d li{font-size: 0.8em;}
+}
+
+@media all and (max-width: 767px) and (min-width: 320px){
+    .real3d{display: block; border: none;}
+    .real3d li{border: 1px solid var(--hover); border-radius: 20px; padding: 0.5em 2em;}
+    .real3d li+li{margin-top: 1em;}
+    .real3d a{font-size: 0.8em;}
+    section{position: relative; width: 90%; top: -10vh;}
+    section h3{font-size: 1em;}
+    section p{font-size: 0.8em;}
 }

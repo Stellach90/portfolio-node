@@ -13,7 +13,7 @@ const works = [
     {
         imgsrc : `../img/banner4.png`,
         title : `Green P`,
-        discription : `sdfg`,
+        discription : `Re-designed Green P`,
         link : `greenp`
     },
     {
@@ -25,13 +25,13 @@ const works = [
     {
         imgsrc : `../img/minions.png`,
         title : `3D Minions`,
-        discription : `3D chessboard (MAYA)`,
+        discription : `Chessboard (MAYA)`,
         link : `minions`
     },
     {
         imgsrc : `../img/wine.png`,
         title : `3D cheese plate`,
-        discription : `3D cheese plate and wine (MAYA)`,
+        discription : `Cheese plate and wine (MAYA)`,
         link : `wine`
     },
     {
@@ -96,7 +96,7 @@ var e = document.querySelector('nav');
 if(screen_width <= 767){
 
     tl.to('.cover', 1,{
-        width: '60%', top: '0', objectPosition:'left', ease: Power2.easeOut
+        width: '60%', top: '10vh', objectPosition:'left', ease: Power2.easeOut
     })
     .to('nav', 1,{
         width: '60%',height: '100%', ease: Power2.easeOut, backgroundColor: '#515253'
@@ -111,7 +111,7 @@ if(screen_width <= 767){
     });
     } else {
         tl.to('.cover', 1,{
-            width: '60%', top: '0', objectPosition:'left', ease: Power2.easeOut
+            width: '60%', top: '10vh', objectPosition:'left', ease: Power2.easeOut
         })
         .to('nav', 1,{
             width: '40%',height: '100%', ease: Power2.easeOut, backgroundColor: '#515253'

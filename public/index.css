@@ -41,7 +41,8 @@ header .cover{width: 75%; height: 100%; position: absolute; top: 15%; right: 0; 
     .nav-button{padding-top: 3em !important;}
     /* .nav-close ul li{opacity: 0;} */
     .burger{display: block; right: 0;}
-    
+    .container{width: 90%; margin: auto;}
+    .info{display: block; font-size: 0.6em;}
   }
 
 .nav-active{transform: translateX(0%);}

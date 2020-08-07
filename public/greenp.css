@@ -1,5 +1,5 @@
 
-header .cover{width: 85%; height: unset; position: absolute; top: 20vh; object-fit: cover; margin-right: 7%;}
+header .cover{width: 100%; height: unset; position: absolute; top: 20vh; object-fit: cover; margin-right: 7%;}
 
 
 
@@ -10,7 +10,6 @@ main{padding: unset;}
 .intro img{width: 100%;}
 video{width: 100%; height: 100%;}
 .work img{width: 100%; background-color: var(--white);}
-.cover{width: 100%; height: unset; top: 20vh;}
 
 /* #contentName{position: absolute; right: 0; color: black; background-color: unset; top: 50%; z-index: 3; text-align: right;} */
 
@@ -19,4 +18,12 @@ article+article{padding-top: 3em;}
 @media all and (max-width: 1024px) and (min-width: 768px){
     header .cover{top: 12vh;}
     section button{margin-left: 72%;}
+}
+
+@media all and (max-width: 767px) and (min-width: 320px){
+    main{width: 90%;}
+    header .cover{width: 90%;}
+    .intro{display: block;}
+    .intro img{padding-bottom: 3em;}
+    video{width: 86%; padding-left: 7%;}
 }

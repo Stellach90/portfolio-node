@@ -16,8 +16,8 @@ app.get('/', function (req, res) {
 });
 
 //creat about page route
-app.get('/wetfood', function (req, res) {
-    res.render('wetfood', {title : ``});
+app.get('/experience', function (req, res) {
+    res.render('experience', {title : ''});
 });
 
 app.get('/portfolio', function (req, res) {

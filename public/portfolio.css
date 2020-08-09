@@ -49,6 +49,8 @@ section span{font-size: 0.9em;}
 .info{display: flex; justify-content: space-around; align-items: center; width: 100%; position: relative; top: 5em;}
 .info a:hover span{color: var(--hover);}
 
+
+
 @keyframes img{
     0%{
         filter: brightness(65%);

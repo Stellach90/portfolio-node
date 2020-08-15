@@ -35,6 +35,12 @@ const works = [
         link : `wine`
     },
     {
+        imgsrc : `../img/creamysnug.png`,
+        title : `Creamy snug`,
+        discription : `Brand marketing & Design`,
+        link : `creamysnug`
+    },
+    {
         imgsrc : `../img/fineart.png`,
         title : `Fine art`,
         discription : `Paintings, sculptures `,

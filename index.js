@@ -36,6 +36,10 @@ app.get('/wine', function (req, res) {
     res.render('wine', {title : ''});
 });
 
+app.get('/creamysnug', function (req, res) {
+    res.render('creamysnug', {title : ''});
+});
+
 app.get('/fineart', function (req, res) {
     res.render('fineart', {title : ''});
 });

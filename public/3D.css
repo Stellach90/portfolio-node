@@ -8,6 +8,7 @@ section{width: 80%; margin: auto;}
 section+section{padding-top: 3em;}
 img{width: 100%;}
 img+img{padding-top: 5em; }
+img+h3{padding-top: 10em;}
 img+h4{padding-top: 10em;}
 
 .fine{padding-top: 3em;}

@@ -52,6 +52,8 @@ section span{font-size: 0.9em;}
 .experience{position: relative; width: 100%; left: -3%;}
 
 
+.container{padding-bottom: 10em;}
+
 @keyframes img{
     0%{
         filter: brightness(65%);

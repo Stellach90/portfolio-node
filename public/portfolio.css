@@ -55,13 +55,12 @@ img{width: 100%;}
 img+img{padding-top: 5em; }
 img+h3{padding-top: 10em;}
 img+h4{padding-top: 10em;}
+h3+img{padding-top: 3em;}
 .work:hover .text1{animation: text1 2s 1;}
 .work:hover .text2{animation: text2 1s 1;}
 
-.info{display: flex; justify-content: space-around; align-items: center; width: 100%; position: relative; top: 5em;}
+.info{display: flex; justify-content: space-around; align-items: center; width: 100%; position: relative; top: 5em; }
 .info a:hover span{color: var(--hover);}
-
-.experience{position: relative; width: 100%; left: -3%;}
 
 
 .container{padding-bottom: 10em;}
@@ -112,6 +111,9 @@ img+h4{padding-top: 10em;}
     .pf-img{height: 260px;}
     article:nth-of-type(4) a div div{background-position: right;}
     article:nth-of-type(5) a div div{background-position: right;}
+    .container{padding-bottom: 5em;}
+    .info{font-size: 1.3em; display: block; padding-left: 3em; top: 2em;}
+    .info h2{font-size: 1em;}
   }
 
   @media all and (max-width: 767px) and (min-width: 320px){
@@ -131,6 +133,8 @@ img+h4{padding-top: 10em;}
     .close{right: -130%; top: 1em; width: 1.2em; height: 1.2em;}
     .info{font-size: 0.6em; display: block; padding-left: 3em;}
     .info a span{font-size: 1.3em;}
+    .container{padding-bottom: 3em;}
+    .footer{font-size: 0.6em;}
   }
   .nav-active{margin: 0; transform: translateX(0%);}
   .dimmer{opacity: 0.3;}

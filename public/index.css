@@ -16,7 +16,7 @@ header .cover{width: 75%; height: 100%; position: absolute; top: 15%; right: 0; 
 
 .nav-open{position: absolute; width: 40%; height: 100%; top: 10vh; opacity: 0; pointer-events: none;}
 .close{position: relative; width: 2em; height: 2em; text-indent: -9999px; background: url(../img/closeicon.png) no-repeat; background-size:cover; border: 0; top: 2em; right: -90%;}
-.info{display: flex; justify-content: space-around; align-items: center; width: 100%; position: relative; top: 5em;}
+.info{display: flex; justify-content: space-around; align-items: center; width: 100%; position: relative; top: 5em; text-align: right;}
 .info a:hover span{color: var(--hover);}
 
 .nav-open .info ul li{padding-bottom: 20px;}
@@ -27,13 +27,16 @@ header .cover{width: 75%; height: 100%; position: absolute; top: 15%; right: 0; 
 @media all and (max-width: 1024px) and (min-width: 768px) {
     header{height: 50vh;}
     .close{width: 1em; height: 1em;}
+    .info{font-size: 1.3em; display: block; padding-left: 2em; top: 5em; text-align: left;}
+    .info h2{font-size: 1em;}
+    .info span{font-size: 0.65em;}
   }
 
 @media all and (max-width: 767px) and (min-width: 320px) {
     header{overflow-x: hidden; height: 65vh;}
     header .cover{width: 100%; height: 70%; top: 10vh; object-position: left;}
     .nav-open{width: 60%;}
-    .close{width: 1.5em; height: 1.5em; right: -80%;}
+    .close{width: 1.2em; height: 1.2em; right: -85%; top: 1em;}
     .nav-close{grid-template-columns: 1fr;}
     .nav-close .logo{background-position: left; width: 6vh; height: 6vh;}
     .nav-links{position: absolute; right: 0; margin: 0; top: 10vh; display: unset; width: 40%; height: 25vh; text-align: right; background-color: var(--white); transform: translate(100%); transition: transform 0.5s ease-in;}
@@ -44,7 +47,9 @@ header .cover{width: 75%; height: 100%; position: absolute; top: 15%; right: 0; 
     /* .nav-close ul li{opacity: 0;} */
     .burger{display: block; right: 0;}
     .container{width: 90%; margin: auto;}
-    .info{font-size: 0.6em; display: block; padding-left: 3em;}
+    .info{font-size: 0.6em; display: block; padding-left: 3em; text-align: left;}
+    .info a{font-family: 1.3em;}
+    .footer{font-size: 0.6em;}
   }
 
 .nav-active{transform: translateX(0%);}

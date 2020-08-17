@@ -1,17 +1,7 @@
 
-const topImg = document.getElementById("topImg");
-const topcss = document.getElementById("topcss");
 
-
-// const topImg = document.getElementById("topImg");
-// const topcss = document.getElementById("topcss");
-
-exports.topImg= topImg
-exports.topcss= topcss
-
-
-topImg.src = "../img/portfoliotop.png";
-topcss.href = "portfolio.css";
+document.getElementById("topImg").src = "../img/portfoliotop.png";
+document.getElementById("topcss").href = "portfolio.css";
 
 const works = [
     {
